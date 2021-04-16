@@ -28,17 +28,7 @@ class Window():
         #function of closing window
         self.root.protocol("WM_DELETE_WINDOW", lambda: self.close_window("root"))
         #initialization of all objects that i'm gonna use
-        self.get_selected = None
-        self.name = None
-        self.st = None
-        self.win_st = None
-        self.win = None
-        self.new_menu2 = None
-        self.new_menu_new_win = None
-        self.what_to_find = None
-        self.storage_for_copy_cut_paste = None
         self.default_font = 11
-        self.win_new = None
         self.word_wrap_choice = tk.BooleanVar(value = True)
 
     def run(self): #run function
